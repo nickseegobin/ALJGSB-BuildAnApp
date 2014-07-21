@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        
+<link rel="stylesheet" type="text/css" href="jQueryMobile/jquery.mobile-1.4.3.css" />   
+<meta name="msapplication-tap-highlight" content="no" />
+ <title>Hello World</title>
+    </head>
+    <body>
+        
+    <!--Main App Page Section-->
+    <section id="main" data-role="page">
+        <!--Header Section-->
+        <header data-role="header" data-position="fixed">
+        <h1>Build An App</h1> 
+          
+        </header>
+        
+        
+        <!--Content Section-->
+        <div class="ui-content">
+        <h2>Buid An App Workshop 2014</h2>
+        <a href="#about" class="ui-btn">About This App</a>
+            
+        </div>
+        
+        <!--Footer Section-->
+        <footer data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#main" class="ui-btn-active">Home</a></li>
+                <li><a href="#about"  data-transition="slideup">About</a></li>
+                
+            </ul>
+        </div><!-- /navbar -->  
+        <p style="text-align:center;"><small >Created by Your Name Here</small></p>
+            
+        </footer>
+        
+    </section>
+        
+        
+        
+     <!--About App Page Section-->
+    <section id="about" data-role="page">
+        <!--Header Section-->
+        <header data-role="header" data-position="fixed">
+        <h1>Build An App</h1> 
+          
+        </header>
+        
+        
+        <!--Content Section-->
+        <div class="ui-content">
+        <h2>Buid An App Workshop 2014</h2>
+        <h3>About This App</h3>
+        <p>This App was created by:<strong>your name here</strong></p>
+        <p>Date:<strong>todays date</strong></p>
+            
+        </div>
+        
+        <!--Footer Section-->
+        <footer data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#main"  data-transition="slidedown">Home</a></li>
+                <li><a href="#about" class="ui-btn-active">About</a></li>
+              
+            </ul>
+        </div><!-- /navbar -->  
+        <p style="text-align:center;"><small >Created by Your Name Here</small></p>
+            
+        </footer>
+        
+        
+        
+        
+        
+    <!--JS Javascript-->
+<!--<script type="text/javascript" src="phonegap.js"></script>-->
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="jQueryMobile/jquery.mobile-1.4.3.js"></script>
+        <script type="text/javascript">
+            $(function(){
+            
+                console.log("Loaded");
+                
+            });
+        </script>
+    </body>
+</html>
